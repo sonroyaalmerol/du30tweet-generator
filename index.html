@@ -39,7 +39,7 @@
     <div class="container">
       <div class="header-content">
         <h1>Random Tweet <span class="typed"></span></h1>
-        <p>a mini machine learning project that auto generates tweet based on a dataset made out of existing tweets with the "du30" 2019 search query. &copy; Son Roy Almerol, 2019</p>
+        <p>a mini machine learning project that auto generates tweet based on a dataset made out of existing tweets with the "du30" 2019 search query.</p>
 
         <div class="form-group">
           <label for="seed" style="color: white;">seed text</label>
@@ -50,10 +50,10 @@
           <input type="range" min="1" max="100" value="50" class="form-control" id="length">
         </div>
         <div class="form-group">
-          <label for="chaosLevel" style="color: white;">chaos level (the lower, the more chaotic the tweet will be structure-wise)</label>
+          <label for="chaosLevel" style="color: white;">temperature level (lower level = more structurally chaotic)</label>
           <input type="range" min="1" max="100" value="50" class="form-control" id="chaosLevel">
         </div>
-        <button type="button" id="generate" class="btn btn-outline-primary" disabled>Loading generator...</button>
+        <button type="button" id="generate" class="btn btn-outline-primary" disabled>Loading generator... (yes medyo matagal to mag initialize)</button>
       </div>
     </div>
   </div>
