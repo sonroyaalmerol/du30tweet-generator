@@ -8,7 +8,7 @@ function setup() {
   noCanvas();
 
   // Create the LSTM Generator passing it the model directory
-  lstm = ml5.LSTMGenerator('/data/', modelReady);
+  lstm = ml5.charRNN('/data/', modelReady);
 
   // Grab the DOM elements
   textInput = select('#seed');
