@@ -57,7 +57,7 @@ function generate() {
       select('#generate').html('Generate Tweet');
 
       $('#resultModal').modal('show');
-      select('#result').html(txt + result);
+      select('#result').html(`${txt}${result.sample}`);
     }
   } 
 }
